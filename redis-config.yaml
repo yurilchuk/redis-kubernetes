@@ -11,9 +11,6 @@ metadata:
   name: redis-cluster
   namespace: redis
 data:
-  nfs-path: "/storage/hd5/Redis"
-  server-ip: "10.1.1.6"
-  storage: "32Gi"
   update-node.sh: |
     #!/bin/sh
     REDIS_NODES="/data/nodes.conf"
